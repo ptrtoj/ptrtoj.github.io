@@ -1,9 +1,6 @@
 ---
-title: 공지사항
-date: 2023-07-10 +0900
-categories: [blog]
-tags: [blog]
-permalink: /main
+icon: fas fa-fire
+order: 1
 ---
 
 > **“If I had more time, I would have written a shorter letter.”** \
@@ -12,7 +9,6 @@ permalink: /main
 ## 공지사항
 
 - 현재 `jekyll` & `Github Pages`를 활용한 페이지로 이식중입니다.
-- 사용을 원하는 테마가 `index` & `page`와 친하지 않아 앞으로 중요 사항은 [ptrtoj.com/main]({% link _posts/2023-07-10-main.md %}) 페이지를 통해 공지하도록 하겠습니다.
 - `Github`로의 이식은 여러분들과의 협업을 통한 페이지 개선을 위함입니다. 즉, 원하시는 분들은 누구든지, 혹은 수정해야할 필요를 느끼신분들은 누구든지 `Github Pull Request`를 통해 내용 수정에 참여하실 수 있습니다!
 - 본 블로그는 현재 시점의 제 의견이나 지식을 반영합니다.
 - 특히, ‘제 견해’에 해당하는 파트는 매우 변덕스럽습니다.
