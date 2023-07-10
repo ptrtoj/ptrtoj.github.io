@@ -5,20 +5,15 @@ categories: [Translation]
 tags: [game, dev, multiplayer, network]
 ---
 
-
-{{< columns >}}
 📢 **Note**
 This is translated work. The original post is written by 'Gabriel Gambetta', the link is [here](https://www.gabrielgambetta.com/client-server-game-architecture.html).
 
 The translation was permitted on 2020/12/06. This is a combined long HTML version of each series.
 
-<--->
-
 📢 **Note**
 이 문서는 번역본입니다. 원본은 'Gabriel Gambetta'가 쓴 것으로, [링크](https://www.gabrielgambetta.com/client-server-game-architecture.html)를 통해 확인할 수 있습니다.
 
 번역은 2020/12/06에 허가되었습니다. 이 문서는 각 시리즈를 하나의 HTML 파일로 편집한 것입니다.
-{{< /columns >}}
 
 ## 파트 1: 클라이언트-서버 게임 아키텍쳐
 
@@ -278,8 +273,7 @@ The translation was permitted on 2020/12/06. This is a combined long HTML versio
 
 가장 관련있는 글 들은 [게임 네트워크에 관해 모든 프로그래머가 알아야 할 것들](https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/)과 [클라이언트/서버 인게임 프로토콜 디자인과 최적화에서의 지연 보상 방법론](https://developer.valvesoftware.com/wiki/Latency_Compensating_Methods_in_Client/Server_In-game_Protocol_Design_and_Optimization) 입니다.
 
-{{< hint info >}}
-📢 **Tlanslators Note -역자주**
-추가적으로 원본 글에서는 'Live Demo'가 제공됩니다.
-이는 별도로 여기에 번역하지 않았으며, [링크](https://www.gabrielgambetta.com/client-side-prediction-live-demo.html)를 통해 확인하시기 바랍니다
-{{< /hint >}}
+> 📢 **Tlanslators Note -역자주**
+> 추가적으로 원본 글에서는 'Live Demo'가 제공됩니다.
+> 이는 별도로 여기에 번역하지 않았으며, [링크](https://www.gabrielgambetta.com/client-side-prediction-live-demo.html)를 통해 확인하시기 바랍니다
+{: .prompt-tip}
