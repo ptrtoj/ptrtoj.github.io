@@ -1,0 +1,49 @@
+baseURL = 'https://ptrtoj.com/'
+languageCode = 'ko-kr'
+title = 'a Pointer to J'
+theme = 'cactus'
+copyright = 'WooHyung Jeon'
+
+[markup]
+    [markup.highlight]
+        style = 'catppuccin-latte'
+[[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 1
+[[menu.main]]
+    name = 'All Posts'
+    url = '/posts'
+    weight = 2
+[[menu.main]]
+    name = 'Links'
+    url = '/links'
+    weight = 3
+[[menu.main]]
+    name = 'Author'
+    url = '/author'
+    weight = 4
+[[menu.main]]
+    name = 'Updates'
+    url = '/log'
+    weight = 5
+[params]
+    description = 'a Super Minimal Blog'
+    mainSection = 'posts'
+    postsOnHomePage = 20
+    showAllPostsArchive = true
+[[params.social]]
+        name = 'github'
+        link = 'https://github.com/ptrtoj'
+[[params.social]]
+        name = 'email'
+        link = 'jeon@ptrtoj.com'
+[[params.social]]
+        name = 'twitter'
+        link = 'https://twitter.com/ptrtoj'
+[[params.social]]
+        name = 'instagram'
+        link = 'https://instagram.com/ptrtoj'
+[[params.social]]
+        name = 'youtube'
+        link = 'https://youtube.com/@cruxnewsteam'
