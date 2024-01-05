@@ -1,5 +1,6 @@
 ---
 title: Updates
+url: 'log'
 ---
 
 > **🔥 since 2017/11/01**

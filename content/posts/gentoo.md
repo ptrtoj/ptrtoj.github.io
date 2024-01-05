@@ -1,6 +1,7 @@
 ---
 title:  "젠투 리눅스 설치 가이드"
 date:   2017-11-05
+url: 'gentoo'
 ---
 
 ## Preface

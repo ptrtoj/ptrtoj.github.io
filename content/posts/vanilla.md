@@ -1,6 +1,7 @@
 ---
 title:  "젠투 리눅스 바닐라 커널"
 date:   2017-11-05
+url: 'vanilla'
 ---
 
 > This is a translated work.

@@ -1,6 +1,7 @@
 ---
 title:  "통합 세팅 이론"
 date:   2022-11-02
+url: 'gust'
 ---
 
 ## the **G**rand **U**nified **S**ettings **T**heory

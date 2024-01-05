@@ -1,6 +1,7 @@
 ---
 title:  "Stow로 Dotfiles 관리"
 date:   2021-10-11
+url: 'stow'
 ---
 
 ## 서문

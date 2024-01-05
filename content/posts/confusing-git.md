@@ -1,6 +1,7 @@
 ---
 title: "헷갈리는 Git 용어"
 date: 2023-11-03
+url: 'git'
 ---
 
 > This is a translated work.

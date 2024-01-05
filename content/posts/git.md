@@ -1,6 +1,7 @@
 ---
 title:  "Git 커밋 메시지에 대하여"
 date:   2022-07-11
+url: 'commit'
 ---
 
 > This is a translated work.

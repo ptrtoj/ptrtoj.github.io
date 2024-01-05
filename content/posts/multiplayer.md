@@ -1,6 +1,7 @@
 ---
 title:  "빠른 진행 멀티플레이어"
 date:   2020-12-06
+url: 'multiplayer'
 ---
 
 > This is translated work. The original post is written by 'Gabriel Gambetta', the link is [here](https://www.gabrielgambetta.com/client-server-game-architecture.html).
