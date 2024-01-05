@@ -1,6 +1,8 @@
 ---
-title: About Author
+title: "About Author"
 ---
+
+# About Author
 
 “If I had more time, I would have written a shorter letter.”\
 → Pascal, “Lettres Provinciales”, 1657

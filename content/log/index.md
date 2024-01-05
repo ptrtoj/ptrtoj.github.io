@@ -1,7 +1,9 @@
 ---
-title: Updates
+title: "Updates"
 url: 'log'
 ---
+
+# Updates
 
 > **🔥 since 2017/11/01**
 >
