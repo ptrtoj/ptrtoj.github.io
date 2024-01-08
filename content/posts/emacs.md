@@ -5,7 +5,7 @@ url: 'emacs'
 ---
 
 My Super Minimal Emacs Configuration.\
-Files are availbale on [Github](https://github.com/ptrtoj/Emacs.git).\
+Files are available on [Github](https://github.com/ptrtoj/Emacs.git).\
 Prefer `Built-in` packages over `3rd Party` ones.
 
 # Basics
