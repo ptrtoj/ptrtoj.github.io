@@ -4,8 +4,9 @@ date:   2024-01-07
 url: 'emacs'
 ---
 
-My Super Minimal Emacs Configuration.\
-Files are available on [Github](https://github.com/ptrtoj/Emacs.git).\
+My ~~not so~~ **E**xtremely **M**inimal **A**lt + **C**trl + **S**hift.\
+This post doesn't strictly follow the most recent version.\
+That's available on [Github](https://github.com/ptrtoj/Emacs.git).\
 Prefer `Built-in` packages over `3rd Party` ones.
 
 # Basics
