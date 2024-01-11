@@ -1,10 +1,8 @@
 ---
-title:  "수학 독학 커리큘럼"
-date:   2023-01-01
+title: "수학 독학 커리큘럼"
+date:  2023-01-01
 url: 'math'
 ---
-
-$ 수학 독학 커리큘럼 정리
 
 > 제가 공부하려고 개인적으로 정리한 리스트입니다.
 >
@@ -24,7 +22,7 @@ $ 수학 독학 커리큘럼 정리
 Pick one of below, but 2-4 are really hard. I would take 1 & 2.
 
 - [x] **Discrete Mathematical Structures**, Kolman, Busby, Ross
-- [x] **Concrete Mathematics**, Graham, Knuth, Patashnik
+- **Concrete Mathematics**, Graham, Knuth, Patashnik
 - or *Discrete Mathematics and its Applications*, Rosen
 - or *Discrete and Combinatorial Mathematics*, Grimaldi
 
@@ -32,65 +30,65 @@ Pick one of below, but 2-4 are really hard. I would take 1 & 2.
 
 Recommended book was ‘How to Prove it’.
 
-- [x] **How To Prove It**, Velleman
+- **How To Prove It**, Velleman
 - or *Foundations of Higher Mathematics*, Fletcher, Patty
 - or *An Introduction To Abstract Mathematics*, Bond, Keane
 - or *How to Read and Do Proofs*, Solow
 
 ## Pre-Calculus & Trigonometry
 
-- [x] **Precalculus**, Stewart, Redlin, Watson
+- **Precalculus**, Stewart, Redlin, Watson
 - or *Algebra and Trigonometry*, Stewart, Redlin, Watson
 
 ## Calculus
 
-- [x] **Calculus**, Stewart
+- **Calculus**, Stewart
 - or *Thomas' Calculus*
 - or *Calculus*, Larson, Edwards
 - or *Calculus*, Swokowski
 
 ## Differential Equations
 
-- [ ] **Differential Equations**, Zill
-- [ ] **Differential Equations**, Nagle, Saff, Snider
+- **Differential Equations**, Zill
+- **Differential Equations**, Nagle, Saff, Snider
 - or *Schaum's Differential Equations*
 
 ## Probability & Statistics
 
-- [ ] **Elementary Statistics**, Weiss
+- **Elementary Statistics**, Weiss
 - or *Mathematical Statistics and Data Analysis*, Rice
 
 ## Geometry
 
-- [ ] **Geometry**, Jurgensen
+- **Geometry**, Jurgensen
 
 ## Linear Algebra
 
-- [ ] **Elementary Linear Algebra**, Anton
-- [ ] **Linear Algebra**, Friedberg, Insel, Spence
+- **Elementary Linear Algebra**, Anton
+- **Linear Algebra**, Friedberg, Insel, Spence
 
 ## Complex Variables
 
-- [ ] **Schaum's Complex Variables**
-- [ ] **Fundamentals of Complex Analysis**, Saff, Snider
+- **Schaum's Complex Variables**
+- **Fundamentals of Complex Analysis**, Saff, Snider
 - or *Complex Variables*, Brown, Churchill
 - or *Complex Variables*, Ablowitz, Fokas (**Advanced**)
 
 ## Partial Differential Equations
 
-- [ ] **Introduction to Partial Differential Equations**, Zachmanoglou, Thoe
-- [ ] **Partial Differential Equations**, Miller
+- **Introduction to Partial Differential Equations**, Zachmanoglou, Thoe
+- **Partial Differential Equations**, Miller
 
 ## Abstract Algebra
 
-- [ ] **Abstract Algebra**, Saracino
-- [ ] **Algebra**, Lang (Said ‘considered as bibile of abstract algebra)
+- **Abstract Algebra**, Saracino
+- **Algebra**, Lang (Said ‘considered as bibile of abstract algebra)
 
 ## Real Analysis
 
-- [ ] **Introduction to Real Analysis**, Bartle, Sherbert
-- [ ] **Advanced Calculus**, Fitzpatrick
-- [ ] **Advanced Calculus**, Buck
+- **Introduction to Real Analysis**, Bartle, Sherbert
+- **Advanced Calculus**, Fitzpatrick
+- **Advanced Calculus**, Buck
 
 ## Number Theory
 
@@ -102,16 +100,16 @@ any one of below
 
 ## Graph Theory
 
-- [ ] **Graph Theory**, Gould
+- **Graph Theory**, Gould
 
 ## Topology
 
-- [ ] **Topology**, Gamelin, Greene
+- **Topology**, Gamelin, Greene
 - or *Topology*, Munkres
 
 ## Others
 
-- [ ] *All The Math You Missed*, Thomas A. Garrity
-- [ ] *Cryptography*, Trappe
-- [ ] *Advanced Engineering Mathematics*, Erwin Kreyszig
+- *All The Math You Missed*, Thomas A. Garrity
+- *Cryptography*, Trappe
+- *Advanced Engineering Mathematics*, Erwin Kreyszig
 - [x] *Basic Mathematics*, Lang
