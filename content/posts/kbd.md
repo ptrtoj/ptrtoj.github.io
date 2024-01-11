@@ -58,7 +58,7 @@ system settings → input devices → keyboard → advanced에 ‘Caps Lock is a
 
 `xmodmap`을 설치해 사용합니다.
 
-```bash
+```file
 !
 ! Swap Caps_Lock and Control_L
 !
@@ -74,13 +74,13 @@ add Control = Control_L
 `.xinitrc` 등에서 소환합니다. (보통 복사하신 시스템 `xinitrc`에서 적용되어 있습니다)
 
 ```bash
-[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
+$ [[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
 ```
 
 ### 그 외 (2) - Xkbd
 
 ```bash
-setxkbmap -option ctrl:swapcaps     # Swap Left Control and Caps Lock
+$ setxkbmap -option ctrl:swapcaps     # Swap Left Control and Caps Lock
 ```
 
 ## ➕Bonus - `Hyper` key
@@ -89,7 +89,7 @@ setxkbmap -option ctrl:swapcaps     # Swap Left Control and Caps Lock
 
 ([ref](https://www.reddit.com/r/commandline/comments/4gusjx/comment/d2l0wpe/?utm_source=share&utm_medium=web2x&context=3): You can also put `.Xmodmap` in your `.xinitrc` with `xmodmap ~/.Xmodmap &`. I have it between the `setxkbmap` and `xcape` lines, and it has been stable.)
 
-```bash
+```file
 clear      lock
 clear   control
 clear      mod1
@@ -119,11 +119,9 @@ add        mod5 = Mode_switch ISO_Level3_Shift
 
 많은 개발자들이 사랑하는 해피해킹 키보드도 있긴 합니다; 이쪽에선 아예 `Caps Lock` 자리가 `Control`로 변형되어 있습니다. 그.. 그런데 `Delete`까지 `Enter`(Return) 상단으로 이사;;
 
-**HHKB Hybrid Type-S Snow** 구입해서 사용하고 있습니다.
+**[HHKB Pro Hybrid Type-S \(Snow/Blank\)](https://hhkeyboard.us/hhkb/pro-hybrid-type-s/sku/cg01000-307401)** 구입해서 사용하고 있습니다.
 
-- Bluetooth + USB-C → 병행 사용
-
-이렇게 세팅해서 사용하고 있기는 한데, 쓸데 없는 이유로 HHKB 순정의 옵션을 사용할까 고민하고 있습니다. (OS를 결정하는 DIP Swtich 1&2 정도를 제외하고는 모두 OFF한 세팅)
+`emacs` 사용도 너무 편하고 좋네요. `vim`이고 뭐고 안가리는 전무후무 맞는듯 ㄷㄷ
 
 ![HHKB](/kbd-hhkb_kbd.png)
 HHKB ([출처](https://happyhackingkb.com/))

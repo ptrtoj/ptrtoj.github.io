@@ -4,13 +4,23 @@ date: 2023-11-03
 url: 'git'
 ---
 
-> This is a translated work.
-> The original post was written by Julia Evans and you can read it [here](https://jvns.ca/blog/2023/11/01/confusing-git-terminology/). On 03, Nov. 2023, permission was granted via e-mail.
+---
 
-> 이 문서는 번역본입니다.
-> 원본은 줄리아 에반스(Julia Evans)에 의해 작성되었으며, 다음 [링크](https://jvns.ca/blog/2023/11/01/confusing-git-terminology/)를 통해 읽을 수 있습니다.이메일을 통해 23/11/03 번역 허가를 받아 작성 후 업로드 합니다.
+This is a translated work.
+The original post was written by Julia Evans and you can read it [here](https://jvns.ca/blog/2023/11/01/confusing-git-terminology/). On 03, Nov. 2023, permission was granted via e-mail.
 
-> 주요 개념, 명령어나 명령어 출력은 독자의 오해를 방지하기 위해 한국어와 영어를 병기합니다(Important concepts, commands or outputs are written in both Korean AND English, so readers can avoid misunderstanding).
+---
+
+이 문서는 번역본입니다.
+원본은 줄리아 에반스(Julia Evans)에 의해 작성되었으며, 다음 [링크](https://jvns.ca/blog/2023/11/01/confusing-git-terminology/)를 통해 읽을 수 있습니다.이메일을 통해 23/11/03 번역 허가를 받아 작성 후 업로드 합니다.
+
+---
+
+> 주요 개념, 명령어나 명령어 출력은 독자의 오해를 방지하기 위해 한국어와 영어를 병기합니다
+>
+> Important concepts, commands or outputs are written in both Korean AND English, so readers can avoid misunderstanding
+
+---
 
 안녕하세요! 저는 Git을 설명하기 위한 작업을 진행 중입니다.
 15년간 Git을 사용하는 과정에서 생긴 제게 가장 큰 문제라면,

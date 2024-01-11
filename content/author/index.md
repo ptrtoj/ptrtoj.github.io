@@ -2,22 +2,25 @@
 title: "About Author"
 ---
 
-# About Author
-
 “If I had more time, I would have written a shorter letter.”\
 → Pascal, “Lettres Provinciales”, 1657
 (Yes, the Mathemagician)
 
 ## Name
+
 🔖 WooHyung Jeon
+
 ## Lives in
+
 🌏 Seoul, S. Korea
 
 ## Social
+
 🌐 [GitHub](https://github.com/ptrtoj) / [GitLab](https://gitlab.com/jeonwh)\
 💬 IRC: Libera Chat → **@jeon**
 
 ## Major
+
 🎓 HanYang Univ.\
 → Major → **PPEL** *( Philosophy, Politics, Economics & Law )*\
 → ~~But studied CS~~
@@ -37,4 +40,5 @@ title: "About Author"
 - Landing Page → [Suraan](https://suraan.com)
 
 ## MBTI
+
 😛 **INTJ** ( ← 유료 검사도 😕 )

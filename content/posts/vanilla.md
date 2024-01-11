@@ -4,17 +4,19 @@ date:   2017-11-05
 url: 'vanilla'
 ---
 
-> This is a translated work.
->
-> The original post was written by gg7 on Github, and you can read it via [this link](https://github.com/gg7/gentoo-kernel-guide).
->
-> Translate permission is granted by gg7.
+---
 
-> 이 문서는 번역본입니다.
->
-> 원본은 gg7에 의해 작성되었으며, 다음 [깃허브 링크](https://github.com/gg7/gentoo-kernel-guide)에서 읽을 수 있습니다.
->
-> 원작자 gg7의 번역 허가를 받았습니다.
+This is a translated work.
+The original post was written by gg7 on Github, and you can read it via [this link](https://github.com/gg7/gentoo-kernel-guide).
+Translate permission is granted by gg7.
+
+---
+
+이 문서는 번역본입니다.
+원본은 gg7에 의해 작성되었으며, 다음 [깃허브 링크](https://github.com/gg7/gentoo-kernel-guide)에서 읽을 수 있습니다.
+원작자 gg7의 번역 허가를 받았습니다.
+
+---
 
 ## 세 줄 요약
 

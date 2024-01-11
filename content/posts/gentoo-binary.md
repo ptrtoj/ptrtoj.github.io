@@ -44,7 +44,7 @@ FEATURES="${FEATURES} getbinpkg"
 로컬 환경의 신뢰할 수 있는 GnuPG, OpenPGP 키를 업데이트하는 소프트웨어 `getuto`를 실행하여 해결합니다.
 
 ```console
-root # getuto
+# getuto
 ```
 
 부가적인 사항은 해당 [위키 페이지](https://wiki.gentoo.org/wiki/Binary_package_guide)에서 확인하시기 바랍니다.

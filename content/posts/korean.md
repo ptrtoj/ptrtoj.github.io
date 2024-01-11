@@ -32,16 +32,16 @@ url: 'korean'
 우리에게 직접 필요한 `ibus-hangul`이 `ibus`에 의존하므로 `ibus-hangul`만 인자로 제공해 패키지 매니저를 실행해도 보통은 `ibus`와 함께 설치합니다.
 
 ```shell
-$ Debian 계열 - Ubuntu, Mint
+// Debian 계열 - Ubuntu, Mint
 $ apt install ibus-hangul
 
-$ Red Hat 계열 - Fedora, CentOS, Rocky, Alma
+// Red Hat 계열 - Fedora, CentOS, Rocky, Alma
 $ dnf install ibus-hangul
 
-$ Arch
+// Arch
 $ pacman -S ibus-hangul
 
-$ Gentoo
+// Gentoo
 $ emerge -av ibus-hangul
 ```
 
@@ -50,7 +50,7 @@ $ emerge -av ibus-hangul
 `ibus`를 사용하기 위해서는 `/etc/envrionment` 파일 수정이 필요합니다.
 
 ```shell
-$ 선호하는 텍스트 에디터로 파일을 엽니다
+// 선호하는 텍스트 에디터로 파일을 엽니다
 $ sudo vim /etc/environment
 ```
 
@@ -67,7 +67,7 @@ XMODIFIERS=@im=ibus
 아래 명령을 수행하면, 창이 뜹니다.
 
 ```shell
-ibus-setup
+$ ibus-setup
 ```
 
 > 데몬을 실행하냐는 창이 뜰텐데 `Yes` 하시면 됩니다.
@@ -133,7 +133,7 @@ OK를 클릭하셔서 설정을 완료하시면 됩니다.
 
 ## 추후 부팅 시 자동 실행 설정
 
-그래픽 데스크탑 환경, 예를 들어, Gnome, Plasma 등을 사용하시면 autostart 등의 옵션을 통해 `$ibus-daemon -drxR`, 혹은 ibus 프로그램을 추가합니다.
+그래픽 데스크탑 환경, 예를 들어, Gnome, Plasma 등을 사용하시면 autostart 등의 옵션을 통해 `$ ibus-daemon -drxR`, 혹은 ibus 프로그램을 추가합니다.
 
 > **명령어 설명**
 >
@@ -142,8 +142,8 @@ OK를 클릭하셔서 설정을 완료하시면 됩니다.
 > - `-x`: ibus XIM 서버를 실행합니다.
 > - `-R`: 실행에 실패해도 패널과 설정 과정을 재시작합니다.
 
-윈도우 매니저를 활용하시는 분들은 `.xinitrc`나 본인 윈도우 매니저의 autostart 설정을 통해 `$ibus-daemon -drxR`을 추가합니다.
+윈도우 매니저를 활용하시는 분들은 `.xinitrc`나 본인 윈도우 매니저의 autostart 설정을 통해 `$ ibus-daemon -drxR`을 추가합니다.
 
 > 윈도우 매니저의 경우
 >
-> autostart를 통한 `$ibus-daemon -drxR`을 활용할 때 크고 작은 오류가 발생합니다. 한글 입력이 필요할 때, 직접 `$ibus-daemon -drxR`을 실행하거나 키보드 단축키 세팅을 통해 해당 명령을 실행하시는 것이 수월합니다.]
+> autostart를 통한 `$ ibus-daemon -drxR`을 활용할 때 크고 작은 오류가 발생합니다. 한글 입력이 필요할 때, 직접 `$ ibus-daemon -drxR`을 실행하거나 키보드 단축키 세팅을 통해 해당 명령을 실행하시는 것이 수월합니다.]
