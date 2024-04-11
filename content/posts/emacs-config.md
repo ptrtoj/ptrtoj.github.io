@@ -1,7 +1,7 @@
 ---
 title:  "Emacs Config"
 date:   2024-01-07
-url: 'emacs'
+url: 'emacs-config'
 ---
 
 My ~~not so~~ **E**xtremely **M**inimal **A**lt + **C**trl + **S**hift.

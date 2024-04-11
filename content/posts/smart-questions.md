@@ -1,7 +1,7 @@
 ---
 title:  "현명하게 질문하는 방법"
 date:   2021-01-01
-url: 'ask'
+url: 'smart-questions'
 ---
 
 > This is a translated work. The original post was written by Eric S. Raymond, and you can read it [here](http://www.catb.org/~esr/faqs/smart-questions.html).
