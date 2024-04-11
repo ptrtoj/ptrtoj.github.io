@@ -1,0 +1,6 @@
+# MacOS
+.DS_Store
+
+# Hugo
+resources/_gen/
+.hugo_build.lock
