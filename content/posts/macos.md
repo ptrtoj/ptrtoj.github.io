@@ -26,9 +26,13 @@ between tab groups.
 
 Shortcut: `CMD` + `OPT` + `UP/DOWN`
 
-## Emacs Related
+## Keyboard Related
 
-### Change `CTRL` + `SPC` to `nil`
+### Insert emoji with external keyboard
+
+`CMD` + `CTRL` + `SPC`
+
+### Change `CTRL` + `SPC` to `nil` for Emacs
 
 `Settings` > `Keyboard` tab > `Keyboard Shortcuts...` button >
 `Input Sources` tab > Uncheck `Select the previous input source     ⌃Space`
