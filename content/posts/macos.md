@@ -25,3 +25,16 @@ If you're like me, you will love this little shortcut which allows moving
 between tab groups.
 
 Shortcut: `CMD` + `OPT` + `UP/DOWN`
+
+## Emacs Related
+
+### Change `CTRL` + `SPC` to `nil`
+
+`Settings` > `Keyboard` tab > `Keyboard Shortcuts...` button >
+`Input Sources` tab > Uncheck `Select the previous input source     ⌃Space`
+
+You can still change the input source with
+
+1. `Select next source in input menu    ⌃⌥Space`
+2. `Fn` + `Tab`, which input the `CapsLock` key in HHKB
+3. `CapsLock`
