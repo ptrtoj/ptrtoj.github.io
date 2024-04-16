@@ -8,6 +8,14 @@ My 2¢ while using MacBook Pro.
 
 ## Safari Related
 
+### Developer's Tool
+
+Webpage inspector also works on Safari(see: ["Apple Developer"](https://developer.apple.com/documentation/safari-developer-tools/enabling-developer-features))
+
+1. Open `Safari` > `Settings` > `Advanced` > Enable `Show fatures for web developers` checkbox
+2. [MAYBE] Restart Safari
+3. `OPT` + `CMD` + `i` to open inspector
+
 ### Homepage to Favorites
 
 If you want to use `New Tab Page` as `Home Page`,
