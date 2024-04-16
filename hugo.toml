@@ -6,7 +6,7 @@ copyright = 'WooHyung Jeon'
 
 [markup]
     [markup.highlight]
-        style = 'catppuccin-latte'
+	style = 'catppuccin-latte'
 [[menu.main]]
     name = 'Home'
     url = '/'
@@ -32,18 +32,19 @@ copyright = 'WooHyung Jeon'
     mainSection = 'posts'
     postsOnHomePage = 20
     showAllPostsArchive = true
+    css = ["css/custom.css"]
 [[params.social]]
-        name = 'github'
-        link = 'https://github.com/ptrtoj'
+	name = 'github'
+	link = 'https://github.com/ptrtoj'
 [[params.social]]
-        name = 'email'
-        link = 'jeon@ptrtoj.com'
+	name = 'email'
+	link = 'jeon@ptrtoj.com'
 [[params.social]]
-        name = 'twitter'
-        link = 'https://twitter.com/ptrtoj'
+	name = 'twitter'
+	link = 'https://twitter.com/ptrtoj'
 [[params.social]]
-        name = 'instagram'
-        link = 'https://instagram.com/ptrtoj'
+	name = 'instagram'
+	link = 'https://instagram.com/ptrtoj'
 [[params.social]]
-        name = 'youtube'
-        link = 'https://youtube.com/@cruxnewsteam'
+	name = 'youtube'
+	link = 'https://youtube.com/@cruxnewsteam'
