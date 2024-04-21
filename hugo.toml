@@ -40,11 +40,5 @@ copyright = 'WooHyung Jeon'
 	name = 'email'
 	link = 'jeon@ptrtoj.com'
 [[params.social]]
-	name = 'twitter'
-	link = 'https://twitter.com/ptrtoj'
-[[params.social]]
-	name = 'instagram'
-	link = 'https://instagram.com/ptrtoj'
-[[params.social]]
 	name = 'youtube'
 	link = 'https://youtube.com/@cruxnewsteam'
