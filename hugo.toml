@@ -1,7 +1,7 @@
 baseURL = 'https://ptrtoj.com/'
 title = 'a Pointer to J'
 copyright = '© [WooHyung Jeon](mailto:jeon@ptrtoj.com)'
-theme = 'papermod'
+theme = 'PaperMod'
 pagenate = 5
 #languageCode = 'ko-kr'
 
