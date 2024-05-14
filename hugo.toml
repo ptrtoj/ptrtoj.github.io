@@ -1,44 +1,79 @@
 baseURL = 'https://ptrtoj.com/'
-languageCode = 'ko-kr'
 title = 'a Pointer to J'
-theme = 'cactus'
-copyright = 'WooHyung Jeon'
+copyright = '© [WooHyung Jeon](mailto:jeon@ptrtoj.com)'
+theme = 'papermod'
+pagenate = 5
+#languageCode = 'ko-kr'
+
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentUseClasses = true
+
+mainsections = ["posts"]
+
+[minify]
+disableXML = true
+
+[params]
+env = 'production'
+description = 'a Super Minimal Blog'
+author = "WooHyung Jeon"
+defaultTheme = "auto"
+showShareButtons = true
+showReadingTime = true
+showPostNavLinks = true
+showBreadCrumbs = true
+showCodeCopyButtons = true
+showAllPagesInArchive = true
+showPageNums = true
+showToc = true
+
+[params.homeInfoParams]
+Title = "Jeon's Minimal Blog"
+Content = '''
+Check [Author](https://ptrtoj.com/author) page for more information about ME 🔥
+'''
+
+[[params.socialIcons]]
+name = 'github'
+url = 'https://github.com/ptrtoj'
+[[params.socialIcons]]
+name = 'X'
+url = 'https://twitter.com/ptrtoj'
+[[params.socialIcons]]
+name = 'Instagram'
+url = 'https://www.instagram.com/ptrtoj/'
+[[params.socialIcons]]
+name = 'email'
+url = 'jeon@ptrtoj.com'
+[[params.socialIcons]]
+name = 'youtube'
+url = 'https://youtube.com/@cruxnewsteam'
 
 [markup]
-    [markup.highlight]
-	style = 'catppuccin-latte'
+[markup.highlight]
+style = 'catppuccin-latte'
 [[menu.main]]
-    name = 'Home'
-    url = '/'
-    weight = 1
+name = 'Home'
+url = '/'
+weight = 1
 [[menu.main]]
-    name = 'All Posts'
-    url = '/posts'
-    weight = 2
+name = 'All Posts'
+url = '/posts'
+weight = 2
 [[menu.main]]
-    name = 'Links'
-    url = '/links'
-    weight = 3
+name = 'Links'
+url = '/links'
+weight = 3
 [[menu.main]]
-    name = 'Author'
-    url = '/author'
-    weight = 4
+name = 'Author'
+url = '/author'
+weight = 4
 [[menu.main]]
-    name = 'Updates'
-    url = '/log'
-    weight = 5
-[params]
-    description = 'a Super Minimal Blog'
-    mainSection = 'posts'
-    postsOnHomePage = 20
-    showAllPostsArchive = true
-    css = ["css/custom.css"]
-[[params.social]]
-	name = 'github'
-	link = 'https://github.com/ptrtoj'
-[[params.social]]
-	name = 'email'
-	link = 'jeon@ptrtoj.com'
-[[params.social]]
-	name = 'youtube'
-	link = 'https://youtube.com/@cruxnewsteam'
+name = 'Updates'
+url = '/log'
+weight = 5
