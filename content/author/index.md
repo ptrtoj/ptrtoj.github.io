@@ -8,7 +8,7 @@ title: "About Author"
 
 ## Name
 
-🔖 WooHyung Jeon
+🔖 WooHyoung Jeon
 
 ## Lives in
 
