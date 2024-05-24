@@ -36,6 +36,8 @@ showToc = true
 Title = "Jeon's Minimal Blog"
 Content = '''
 Check [Author](https://ptrtoj.com/author) page for more information about ME 🔥
+
+(도메인 `withjeon.com`은 24년 연말 연장 미갱신 예정입니다. `ptrtoj.com`을 사용해주세요!)
 '''
 
 [[params.socialIcons]]
