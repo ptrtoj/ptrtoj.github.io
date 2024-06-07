@@ -1,6 +1,6 @@
 baseURL = 'https://ptrtoj.com/'
 title = 'a Pointer to J'
-copyright = '© [WooHyung Jeon](mailto:jeon@ptrtoj.com)'
+copyright = '© [WooHyoung Jeon](mailto:jeon@ptrtoj.com)'
 theme = 'PaperMod'
 pagenate = 5
 #languageCode = 'ko-kr'
@@ -21,7 +21,7 @@ disableXML = true
 [params]
 env = 'production'
 description = 'a Super Minimal Blog'
-author = "WooHyung Jeon"
+author = "WooHyoung Jeon"
 defaultTheme = "auto"
 showShareButtons = true
 showReadingTime = true
