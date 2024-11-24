@@ -1,7 +1,7 @@
 ---
 title: "수학 독학 커리큘럼"
-date:  2023-01-01
-url: 'math'
+date: 2023-01-01
+url: "math"
 ---
 
 제가 공부하려고 개인적으로 정리한 리스트입니다.\
@@ -22,40 +22,40 @@ Pick one of below, but 2-4 are really hard. I would take 1 & 2.
 
 - [x] **Discrete Mathematical Structures**, Kolman, Busby, Ross
 - **Concrete Mathematics**, Graham, Knuth, Patashnik
-- or *Discrete Mathematics and its Applications*, Rosen
-- or *Discrete and Combinatorial Mathematics*, Grimaldi
+- or _Discrete Mathematics and its Applications_, Rosen
+- or _Discrete and Combinatorial Mathematics_, Grimaldi
 
 ### or Jump right into Proof Writing
 
 Recommended book was ‘How to Prove it’.
 
-- **How To Prove It**, Velleman
-- or *Foundations of Higher Mathematics*, Fletcher, Patty
-- or *An Introduction To Abstract Mathematics*, Bond, Keane
-- or *How to Read and Do Proofs*, Solow
+- [x] **How To Prove It**, Velleman
+- or _Foundations of Higher Mathematics_, Fletcher, Patty
+- or _An Introduction To Abstract Mathematics_, Bond, Keane
+- or _How to Read and Do Proofs_, Solow
 
 ## Pre-Calculus & Trigonometry
 
-- **Precalculus**, Stewart, Redlin, Watson
-- or *Algebra and Trigonometry*, Stewart, Redlin, Watson
+- [x] **Precalculus**, Stewart, Redlin, Watson
+- or _Algebra and Trigonometry_, Stewart, Redlin, Watson
 
 ## Calculus
 
 - **Calculus**, Stewart
-- or *Thomas' Calculus*
-- or *Calculus*, Larson, Edwards
-- or *Calculus*, Swokowski
+- or _Thomas' Calculus_
+- or _Calculus_, Larson, Edwards
+- or _Calculus_, Swokowski
 
 ## Differential Equations
 
 - **Differential Equations**, Zill
 - **Differential Equations**, Nagle, Saff, Snider
-- or *Schaum's Differential Equations*
+- or _Schaum's Differential Equations_
 
 ## Probability & Statistics
 
 - **Elementary Statistics**, Weiss
-- or *Mathematical Statistics and Data Analysis*, Rice
+- or _Mathematical Statistics and Data Analysis_, Rice
 
 ## Geometry
 
@@ -70,8 +70,8 @@ Recommended book was ‘How to Prove it’.
 
 - **Schaum's Complex Variables**
 - **Fundamentals of Complex Analysis**, Saff, Snider
-- or *Complex Variables*, Brown, Churchill
-- or *Complex Variables*, Ablowitz, Fokas (**Advanced**)
+- or _Complex Variables_, Brown, Churchill
+- or _Complex Variables_, Ablowitz, Fokas (**Advanced**)
 
 ## Partial Differential Equations
 
@@ -93,9 +93,9 @@ Recommended book was ‘How to Prove it’.
 
 any one of below
 
-- *Number Theory*, Long
-- *Number Theory*, Andrews
-- *Number Theory*, Dudley
+- _Number Theory_, Long
+- _Number Theory_, Andrews
+- _Number Theory_, Dudley
 
 ## Graph Theory
 
@@ -104,11 +104,11 @@ any one of below
 ## Topology
 
 - **Topology**, Gamelin, Greene
-- or *Topology*, Munkres
+- or _Topology_, Munkres
 
 ## Others
 
-- *All The Math You Missed*, Thomas A. Garrity
-- *Cryptography*, Trappe
-- *Advanced Engineering Mathematics*, Erwin Kreyszig
-- [x] *Basic Mathematics*, Lang
+- _All The Math You Missed_, Thomas A. Garrity
+- _Cryptography_, Trappe
+- _Advanced Engineering Mathematics_, Erwin Kreyszig
+- [x] _Basic Mathematics_, Lang
