@@ -22,7 +22,7 @@ title: "About Author"
 ## Major
 
 🎓 HanYang Univ.\
-→ Major → **PPEL** *( Philosophy, Politics, Economics & Law )*\
+→ Major → **PPEL** _( Philosophy, Politics, Economics & Law )_\
 → ~~But studied CS~~
 
 ## Philosophy
@@ -36,7 +36,7 @@ title: "About Author"
 ## Side Projects
 
 - This blog → [ptrtoj.com](https://ptrtoj.com)
-- YouTube Channel → [Crux News](https://www.youtube.com/@cruxnewsteam) (Hobby)
+- YouTube Channel → [Crux News](https://www.youtube.com/@뉴스채널) (Hobby)
 - Landing Page → [Suraan](https://suraan.com)
 
 ## MBTI
