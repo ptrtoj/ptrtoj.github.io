@@ -16,7 +16,7 @@ title: "About Author"
 
 ## Social
 
-🌐 [GitHub](https://github.com/ptrtoj) / [GitLab](https://gitlab.com/jeonwh)\
+🌐 [GitHub](https://github.com/ptrtoj) \
 💬 IRC: Libera Chat → **@jeon**
 
 ## Major

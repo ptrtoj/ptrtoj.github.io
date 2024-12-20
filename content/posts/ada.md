@@ -1,12 +1,12 @@
 ---
-title:  "Ada on MacOS"
-date:   2024-06-10
-url: 'ada'
+title: "Ada on MacOS"
+date: 2024-06-10
+url: "ada"
 ---
 
-[Work in Progress, but the important tips are already included!]
+**Work in Progress, but the important tips are already included!**
 
-## Bulid Toolchain
+## Bulid Toolchains
 
 You'll need basic build tools such as `gprbuild`, `gprmake`, and those are distributed with GCC.
 
@@ -21,7 +21,7 @@ Follow the wiki. Bug basically you'll do
 
 Then, you can check the installation with `$ which gprbuild`. Output should show the location of your `gcc`(default: `/opt/gcc-VERSION-aarch64/bin`).
 
-## Done (Test)
+## Test
 
 You can type below under the filename of 'hello.adb'
 
@@ -53,7 +53,7 @@ $ ./hello
 > Hello WORLD!
 ```
 
-## Alire (If you want)
+## Build Alire, If you want
 
 You can clone [alire-project/alire](https://github.com/alire-project/alire).
 
@@ -67,7 +67,7 @@ Lastly, your `alr` binary is generated under the git repository's `bin` director
 
 **MOST IMPORTANTLY**, You should run `$ alr toolchain --select` and select gnat version `gnat_external=VERSION [Detected at /opt/gcc-VERSION-aarch64/bin/gnat` one, which we installed above. Also, for the gprbuild, `gprbuild=VERSION [Detected at /opt/gcc-14.1.0-aarch64/bin/gprbuild]`.
 
-## Done (Test)
+## Test
 
 Move to the desired dev directory, and run
 

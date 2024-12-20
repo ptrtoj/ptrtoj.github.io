@@ -2,7 +2,7 @@ baseURL = 'https://ptrtoj.com/'
 title = 'a Pointer to J'
 copyright = '© [WooHyoung Jeon](mailto:jeon@ptrtoj.com)'
 theme = 'PaperMod'
-pagenate = 5
+#pagenate = 5
 #languageCode = 'ko-kr'
 
 enableInlineShortcodes = true
@@ -20,10 +20,11 @@ disableXML = true
 
 [params]
 env = 'production'
-description = 'a Super Minimal Blog'
+description = "Jeon's Personal Kasten of Knowledge"
+keywords= ["Blog", "Dev", "Korean", "Zettelkasten"]
 author = "WooHyoung Jeon"
 defaultTheme = "auto"
-showShareButtons = true
+showShareButtons = false
 showReadingTime = true
 showPostNavLinks = true
 showBreadCrumbs = true
@@ -33,9 +34,13 @@ showPageNums = true
 showToc = true
 
 [params.homeInfoParams]
-Title = "Jeon's Minimal Blog"
+Title = "Jeon's Personal Kasten of Knowledge"
 Content = '''
-Check [Author](https://ptrtoj.com/author) page for more information about ME 🔥
+Check [Author](https://ptrtoj.com/author) page for more information about me.
+
+[Log](https://ptrtoj.com/log) page was moved to 'posts' dir.
+
+Each posts' URLs are frequently changed because of the author's inconsistency. Please rather remember the main domain 'ptrtoj.com' for later reference.
 '''
 
 [[params.socialIcons]]
@@ -57,23 +62,21 @@ url = 'https://youtube.com/@뉴스채널'
 [markup]
 [markup.highlight]
 style = 'catppuccin-latte'
+[markup.goldmark.renderer]
+unsafe = true
+
 [[menu.main]]
 name = 'Home'
 url = '/'
 weight = 1
 [[menu.main]]
-name = 'All Posts'
-url = '/posts'
-weight = 2
-[[menu.main]]
-name = 'Links'
-url = '/links'
-weight = 3
-[[menu.main]]
 name = 'Author'
 url = '/author'
-weight = 4
+weight = 3
 [[menu.main]]
-name = 'Updates'
-url = '/log'
-weight = 5
+name = 'Search'
+url = '/s'
+weight = 4
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
