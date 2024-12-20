@@ -1,7 +1,7 @@
 ---
-title:  "Git Tips"
-date:   2024-04-12
-url: 'git'
+title: "Git Tips"
+date: 2024-04-12
+url: "git"
 ---
 
 If you've followed `Confusing git terminology`, follow [this link]({{< ref "confusing-git-terminology" >}}).
@@ -34,7 +34,7 @@ Reset the `upstream` with below
 $ git branch --set-upstream-to=origin/main main
 ```
 
-*from `$man git-branch`*
+_from `$man git-branch`_
 
 ```text
 	   -u <upstream>, --set-upstream-to=<upstream>
@@ -46,14 +46,15 @@ $ git branch --set-upstream-to=origin/main main
 ## Commits
 
 ### Removing the Whole commit history (Remote)
-[Stack Overflow](https://stackoverflow.com/a/26000395 )
+
+[Stack Overflow](https://stackoverflow.com/a/26000395)
 
 This utilize a new branch which doesn't have any history yet.
 
 **You don't have to remove `.git` directory**
 
 Below, we assume you want to remove all the history under the `main` branch,
-but you can use any branch  when 'main' appears.
+but you can use any branch when 'main' appears.
 
 ```bash
 $ git checkout --orphan tmp_branch
@@ -65,7 +66,9 @@ $ git push -f origin main
 ```
 
 ## Tags
+
 ### Rename a tag (Remote)
+
 [Stack Overflow](https://stackoverflow.com/a/5719854)
 
 ```bash
@@ -90,6 +93,7 @@ $ git tag -a new old^{}
 ```
 
 ### Archive a `branch` into `tag`
+
 #### Archive
 
 (See: [Stack Overflow 1](https://stackoverflow.com/a/1309934),
@@ -138,7 +142,9 @@ $ git checkout -b tmp_branch archive/new_name
 ```
 
 ## Submodules
+
 ### Re-pull the submodule after cloning the parent repository
+
 [Stack Overflow](https://stackoverflow.com/a/1032653)
 
 **If you fresh `pull`ed the repo or `chckout` to some branch**,
@@ -154,4 +160,56 @@ $ git submodule update --init --recursive
 
 ```bash
 $ git submodule update --recursive --remote
+```
+
+## Backup
+
+(Great resource [here](https://www.jwillikers.com/backup-and-restore-a-gpg-key))
+
+### Export
+
+```bash
+$ gpg --list-secret-keys --keyid-format LONG
+$ gpg -o backup-YY.gpg --export-options backup --export-secret-keys jeon@ptrtoj.com
+```
+
+### Import
+
+```bash
+$ gpg --import-options restore --import backup-yy.gpg
+```
+
+Now, trust imported keys.
+
+```bash
+$ gpg --edit-key jeon@ptrtoj.com
+```
+
+```bash
+gpg > trust
+```
+
+Output of above command
+
+```
+Please decide how far you trust this user to correctly verify other users' keys
+(by looking at passports, checking fingerprints from different sources, etc.)
+
+1 = I don't know or won't say
+2 = I do NOT trust
+3 = I trust marginally
+4 = I trust fully
+5 = I trust ultimately
+m = back to the main menu
+
+Your decision?
+```
+
+Now, type `5` to fully trust keys.
+
+```bash
+gpg > 5
+
+gpg > quit
+
 ```
