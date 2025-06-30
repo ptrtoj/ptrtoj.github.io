@@ -1,6 +1,6 @@
 baseURL = 'https://ptrtoj.com/'
 title = 'a Pointer to J'
-copyright = '© [WooHyoung Jeon](mailto:jeon@ptrtoj.com)'
+copyright = '© [Ido Jeon](mailto:jeon@ptrtoj.com)'
 theme = 'PaperMod'
 #pagenate = 5
 #languageCode = 'ko-kr'
@@ -22,7 +22,7 @@ disableXML = true
 env = 'production'
 description = "Jeon's Personal Kasten of Knowledge"
 keywords= ["Blog", "Dev", "Korean", "Zettelkasten"]
-author = "WooHyoung Jeon"
+author = "Ido Jeon"
 defaultTheme = "auto"
 showShareButtons = false
 showReadingTime = true

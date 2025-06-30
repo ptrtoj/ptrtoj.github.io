@@ -8,7 +8,8 @@ title: "About Author"
 
 ## Name
 
-🔖 WooHyoung Jeon
+🔖 Ido Jeon \
+(Prev. WooHyoung Jeon, but changed my legal name)
 
 ## Lives in
 
@@ -21,7 +22,7 @@ title: "About Author"
 
 ## Major
 
-🎓 HanYang Univ.\
+🎓 Hanyang Univ.\
 → Major → **PPEL** _( Philosophy, Politics, Economics & Law )_\
 → ~~But studied CS~~
 
@@ -33,11 +34,6 @@ title: "About Author"
 **Two is one, and one is none**\
 → Navy Seal, (But, there's [a counter-point posting](http://graywolfsurvival.com/208978/the-two-is-one-and-one-is-none-fallacy), also)
 
-## Side Projects
-
-- This blog → [ptrtoj.com](https://ptrtoj.com)
-- YouTube Channel → [Crux News](https://www.youtube.com/@뉴스채널) (Hobby)
-- Landing Page → [Suraan](https://suraan.com)
 
 ## MBTI
 
