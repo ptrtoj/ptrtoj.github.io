@@ -2,7 +2,6 @@ baseURL = 'https://ptrtoj.com/'
 title = 'a Pointer to J'
 copyright = '© [Ido Jeon](mailto:jeon@ptrtoj.com)'
 theme = 'PaperMod'
-#pagenate = 5
 #languageCode = 'ko-kr'
 
 enableInlineShortcodes = true
@@ -14,6 +13,9 @@ enableEmoji = true
 pygmentUseClasses = true
 
 mainsections = ["posts"]
+
+[pagination]
+pagerSize = 30
 
 [minify]
 disableXML = true
