@@ -47,17 +47,8 @@ Each posts' URLs are frequently changed because of the author's inconsistency. P
 name = 'github'
 url = 'https://github.com/ptrtoj'
 [[params.socialIcons]]
-name = 'X'
-url = 'https://twitter.com/ptrtoj'
-[[params.socialIcons]]
-name = 'Instagram'
-url = 'https://www.instagram.com/ptrtoj/'
-[[params.socialIcons]]
 name = 'email'
 url = 'jeon@ptrtoj.com'
-[[params.socialIcons]]
-name = 'youtube'
-url = 'https://youtube.com/@뉴스채널'
 
 [markup]
 [markup.highlight]
