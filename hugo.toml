@@ -39,10 +39,6 @@ showToc = true
 Title = "Jeon's Personal Kasten of Knowledge"
 Content = '''
 Check [Author](https://ptrtoj.com/author) page for more information about me.
-
-[Log](https://ptrtoj.com/log) page was moved to 'posts' dir.
-
-Each posts' URLs are frequently changed because of the author's inconsistency. Please rather remember the main domain 'ptrtoj.com' for later reference.
 '''
 
 [[params.socialIcons]]
