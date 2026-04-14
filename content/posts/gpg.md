@@ -1008,3 +1008,69 @@ gpgpg --export-options export-minimal --export YOUR_KEY_ID | curl -T - https://
         11. 파기 인증서를 제작하고 안전한 곳에 물리적인 형태로 보관할 것( ~300 바이트 정도 크기일 것임)
         12. 개인키의 암호화된 백업이 존재할 것
         13. SKS나 다른 키서버에 업로드할 것
+
+## Added Contents (2026-04-14): GPG Key Update
+
+### Summarized by ‘Google Gemini’
+
+To extend a GPG key's expiration date, use the 
+
+```shell
+gpg --edit-key <KEYID>
+```
+
+command, then type expire and enter the new expiration time (e.g., 1y for one year).
+
+After saving with save, you must re-upload your updated public key to any keyservers or services where it is shared, such as GitHub, using commands like
+
+```shell
+gpg --keyserver keyserver.ubuntu.com --send-keys <KEYID>
+```
+
+Step 1: Edit the key 
+* Open the GPG key editor by running `gpg --edit-key <KEYID>`
+* In the editor, you can see the current expiration for the primary key. If you need to update a subkey, you may need to first select it using key <number> (e.g., ‘key 0’ or ‘key 1’). 
+
+Step 2: Set the new expiration date 
+* Once the correct key is selected, type expire and press Enter.
+* Enter the new expiration time. Common formats include:
+    * 1y for one year
+    * 6m for six months
+    * YYYY-MM-DD for a specific date 
+
+Step 3: Save and exit 
+* Type save and press Enter to apply the changes and exit the editor. 
+
+Step 4: Upload the updated public key 
+* To make the change public, you must upload the updated key to all public keyservers you use.
+* For example, to upload to keyserver.ubuntu.com: `gpg --keyserver keyserver.ubuntu.com --send-keys <KEYID>`
+* You may also need to update your key on services like GitHub. You can export your public key and copy/paste it into the service's settings. 
+
+### Also from  [Krisleech](https://gist.github.com/krisleech/760213ed287ea9da85521c7c9aac1df0)
+
+Backup the key:
+```shell
+gpg -a --export jeon@ptrtoj.com > YY.gpg.pub
+gpg -a --export-secret-keys jeon@ptrtoj.com > YY.gpg.sec
+```
+
+Move the keys on to something like a USB drive and store it safely in another location.
+Publish the public key:
+
+```shell
+gpg --keyserver keyserver.ubuntu.com --send-keys KEYID
+gpg --keyserver pgp.mit.edu --send-keys KEYID
+```
+
+### Also from [Openpgp](https://keys.openpgp.org/about/usage/)
+
+```shell
+#Retrieve                                                                      
+gpg --auto-key-locate keyserver --locate-keys user@example.net                 
+                                                                                
+#Refresh                                                                       
+gpg --refresh-keys                                                             
+                                                                                
+#Upload                                                                        
+gpg --export jeon@ptrtoj.com | curl -T - http://localhost:8080            
+```
