@@ -2,7 +2,7 @@ baseURL = 'https://ptrtoj.com/'
 title = 'a Pointer to J'
 copyright = '© [Ido Jeon](mailto:jeon@ptrtoj.com)'
 theme = 'PaperMod'
-#languageCode = 'ko-kr'
+timezone = 'Asia/Seoul'
 
 enableInlineShortcodes = true
 enableRobotsTXT = true
@@ -11,6 +11,10 @@ buildFuture = false
 buildExpired = false
 enableEmoji = true
 pygmentUseClasses = true
+hasCJKLanguage = true
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
 
 mainsections = ["posts"]
 
@@ -34,12 +38,7 @@ showCodeCopyButtons = true
 showAllPagesInArchive = true
 showPageNums = true
 showToc = true
-
-[params.homeInfoParams]
-Title = "Jeon's Personal Kasten of Knowledge"
-Content = '''
-Check [Author](https://ptrtoj.com/author) page for more information about me.
-'''
+displayFullLangName = true
 
 [[params.socialIcons]]
 name = 'github'
@@ -53,19 +52,59 @@ url = 'jeon@ptrtoj.com'
 style = 'catppuccin-latte'
 [markup.goldmark.renderer]
 unsafe = true
+[markup.goldmark.extensions.passthrough]
+enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['\[', '\]'], ['$$', '$$']]
+inline = [['\(', '\)']]
 
-[[menu.main]]
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[languages.en]
+languageCode = 'en-us'
+languageName = 'English'
+weight = 1
+contentDir = 'content/en'
+[languages.en.params.homeInfoParams]
+Title = "Jeon's Personal Kasten of Knowledge"
+Content = '''
+Check [Author](/author) page for more information about me.
+'''
+[[languages.en.menus.main]]
 name = 'Home'
 url = '/'
 weight = 1
-[[menu.main]]
+[[languages.en.menus.main]]
 name = 'Author'
 url = '/author'
 weight = 3
-[[menu.main]]
+[[languages.en.menus.main]]
 name = 'Search'
 url = '/s'
 weight = 4
 
-[outputs]
-home = ["HTML", "RSS", "JSON"]
+[languages.kr]
+languageCode = 'ko-kr'
+languageName = '한국어'
+weight = 2
+contentDir = 'content/kr'
+[languages.kr.params]
+description = "Jeon의 개인 지식 저장소"
+[languages.kr.params.homeInfoParams]
+Title = "Jeon의 개인 지식 저장소"
+Content = '''
+저자에 대한 자세한 정보는 [Author](/kr/author) 페이지를 참고하세요.
+'''
+[[languages.kr.menus.main]]
+name = 'Home'
+url = '/kr/'
+weight = 1
+[[languages.kr.menus.main]]
+name = 'Author'
+url = '/kr/author'
+weight = 3
+[[languages.kr.menus.main]]
+name = 'Search'
+url = '/kr/s'
+weight = 4
