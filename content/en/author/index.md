@@ -9,7 +9,6 @@ title: "About Author"
 ## Name
 
 🔖 Ido Jeon \
-(Prev. WooHyoung Jeon, but changed my legal name)
 
 ## Lives in
 

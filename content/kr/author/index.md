@@ -8,8 +8,7 @@ title: "저자 소개"
 
 ## 이름
 
-🔖 Ido Jeon \
-(이전 이름은 WooHyoung Jeon이었으나, 법적으로 개명했습니다)
+🔖 Ido Jeon 
 
 ## 거주지
 
